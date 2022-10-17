@@ -1,0 +1,68 @@
+.emailForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 2rem;
+}
+
+.emailForm form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.emailForm h3 {
+  font-size: 1.125rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.formBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem 0;
+}
+
+.formBtn > span {
+  margin-right: 0.5rem;
+}
+
+@media (min-width: 950px) {
+  .formBtn {
+    border-radius: 0;
+    height: 60px;
+    font-size: 1.5rem;
+
+    margin: 0;
+  }
+
+  .formBtn > span {
+    margin: 0 1rem;
+  }
+
+  .emailForm form {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .emailInput {
+    margin: 0;
+  }
+
+  .emailInput input {
+    border-radius: 0;
+    height: 60px;
+  }
+
+  .emailInput label {
+    font-size: 16px;
+    font-weight: 600;
+    top: 30%;
+  }
+}

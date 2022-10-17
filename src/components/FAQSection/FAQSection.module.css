@@ -1,0 +1,22 @@
+.faqContainer {
+  width: 100%;
+}
+
+.faqContainer h1 {
+  margin: 0 0 1rem 0;
+  padding: 0 1rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+@media (min-width: 550px) {
+  .faqContainer h1 {
+    font-size: 3.125rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .faqCard {
+    padding: 3rem 0;
+  }
+}

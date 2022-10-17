@@ -1,0 +1,35 @@
+.downloadContainer {
+  position: absolute;
+  margin: auto;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000;
+  margin: auto;
+  padding: 0.3rem 0.5rem;
+  min-width: 15em;
+  width: 60%;
+  border: 2px solid hsla(0, 0%, 100%, 0.25);
+  border-radius: 0.75rem;
+}
+
+.downloadTitle {
+  flex-grow: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 50%;
+  margin-left: 1rem;
+}
+
+.downloadTitle > * {
+  margin: 0;
+}
+
+.downloadTitle p {
+  color: #0071eb;
+}

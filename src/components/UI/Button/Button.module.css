@@ -1,0 +1,15 @@
+.btn {
+  border: none;
+  background-color: var(--netflixRed);
+  color: #fff;
+  padding: 0.3rem 0.5rem;
+  border-radius: 3px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+@media (min-width: 550px) {
+  .btn {
+    padding: 0.5rem 1rem;
+  }
+}

@@ -1,0 +1,61 @@
+.landing {
+  width: 90%;
+  text-align: center;
+  padding: 2rem 0;
+  z-index: 1;
+}
+
+.landing h1,
+.landing h2 {
+  max-width: 640px;
+}
+
+.landing h1 {
+  font-size: 1.75rem;
+
+  margin: 0 auto;
+}
+
+.landing h2 {
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin: 1rem auto;
+}
+
+.backgroudImage {
+  position: absolute;
+  top: -100px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+}
+
+.dim {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.8) 0,
+    transparent 60%,
+    rgba(0, 0, 0, 0.8)
+  );
+}
+
+@media (min-width: 950px) {
+  .landing {
+    padding: 5rem 0;
+  }
+
+  .landing h1 {
+    font-size: 3.125rem;
+  }
+
+  .landing h2 {
+    font-size: 1.625rem;
+  }
+}
